@@ -9,6 +9,13 @@
     <dimen name="size_medium_56">56dp</dimen>
     <dimen name="size_large_72">72dp</dimen>
 
+    <!-- Tablet Sizes -->
+
+    <dimen name="tablet_size_smallest_24">24dp</dimen>
+    <dimen name="tablet_size_small_32">32dp</dimen>
+    <dimen name="tablet_size_medium_small_48">48dp</dimen>
+
+
     <!-- Spaces -->
 
         <dimen name="spacing_small_8">8dp</dimen>
