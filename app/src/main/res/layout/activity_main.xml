@@ -123,7 +123,7 @@
                         style="@style/editText_style"
                         android:hint="Мобильный телефон"
                         android:inputType="phone"
-                        android:text="+7 (912) 292-98-22"/>
+                        android:text="@string/phone"/>
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
@@ -171,7 +171,7 @@
                         style="@style/editText_style"
                         android:hint="E-mail"
                         android:inputType="textEmailAddress"
-                        android:text="awatarmumu0@gmail.com"/>
+                        android:text="@string/email"/>
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
@@ -216,12 +216,12 @@
                     android:layout_height="wrap_content">
 
                     <EditText
+                        android:id="@+id/vk_et"
                         style="@style/editText_style"
                         android:hint="Профиль в VK"
                         android:inputType="textUri"
-                        android:text="vk.com/dobroposle12"
-                        android:textColor="@color/black"
-                        android:textColorHint="@color/grey"/>
+                        android:text="@string/vk"
+                        />
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
@@ -269,8 +269,8 @@
                         android:id="@+id/github_et"
                         style="@style/editText_style"
                         android:hint="Репозиторий"
-                        android:inputType="textEmailAddress"
-                        android:text="github.com/qbai22/DevIntensive"/>
+                        android:inputType="textUri"
+                        android:text="@string/repo"/>
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
@@ -318,7 +318,7 @@
                         android:id="@+id/about_et"
                         style="@style/editText_style"
                         android:hint="О себе"
-                        android:inputType="textEmailAddress"
+                        android:inputType="text"
                         android:text="@string/about_me"/>
                 </android.support.design.widget.TextInputLayout>
 

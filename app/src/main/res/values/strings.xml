@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Краев Владимир</string>
     <string name="about_me">Что-то обо мне</string>
+    <string name="phone">+7 (912) 292-98-22</string>
+    <string name="email">awatarmumu0@gmail.com</string>
+    <string name="vk">vk.com/dobroposle12</string>
+    <string name="repo">github.com/qbai22/DevIntensive</string>
 </resources>
