@@ -6,7 +6,7 @@
                 android:paddingLeft="@dimen/spacing_normal_16"
                 android:paddingRight="@dimen/spacing_normal_16"
                 android:paddingTop="@dimen/spacing_medial_24"
-                android:background="@drawable/header_background">
+                android:background="@drawable/popup_img">
 
     <ImageView
         android:id="@+id/user_avatar"

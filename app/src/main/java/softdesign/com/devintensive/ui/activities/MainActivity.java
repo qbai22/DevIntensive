@@ -50,6 +50,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
         mCoordinatorLayout = (CoordinatorLayout) findViewById(R.id.main_coordinator_container);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
         mDrawerLayout = (DrawerLayout) findViewById(R.id.navigation_drawer);
         mFab = (FloatingActionButton) findViewById(R.id.fab);
         mFab.setOnClickListener(this);
@@ -259,6 +260,15 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         if (email != null) {
             TextView textView = (TextView) view.findViewById(R.id.user_email_txt);
             textView.setText(email);
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
+            mDrawerLayout.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
         }
     }
 }
