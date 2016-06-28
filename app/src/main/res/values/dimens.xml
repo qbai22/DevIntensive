@@ -34,5 +34,6 @@
     <dimen name="text_20">20sp</dimen>
     <dimen name="text_24">24sp</dimen>
     <dimen name="text_34">34sp</dimen>
-
+    <dimen name="profile_image_size">256dp</dimen>
+    <dimen name="spacing_fab">8dp</dimen>
 </resources>
